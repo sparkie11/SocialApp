@@ -1,0 +1,18 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  background-color: aqua;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+.sidebarList {
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
