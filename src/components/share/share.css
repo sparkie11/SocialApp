@@ -39,25 +39,24 @@
 
 .shareBottom{
     display: flex;
-    width: 80% ;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .shareOptions{
     display: flex;
     margin-left: 20px;
-    width: 80% ;
-
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
 
     
 }
 
-.shareOption{
+.shareoption{
     display: flex;
     align-items: center;
     margin-right: 15px;
+    
     cursor: pointer;
 }
 
@@ -67,6 +66,18 @@
 }
 
 .shareOptionText{
-    font-style: 14px;
+    font-size: 14px;
     font-weight: 500;
+}
+
+.shareButton{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+
 }
